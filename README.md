@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="name" align="center" src="https://img.shields.io/badge/test-FFFFFF?style=for-the-badge">
+<img alt="name" align="center" src="https://img.shields.io/badge/Pro Readme Generator-FFFFFF?style=for-the-badge" height="20">
 <br />
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /><br>
 <br>
@@ -9,18 +9,30 @@ tt
 ***
 
 ### Installation
+
 ```
 git clone https://github.com/Dumbo-programmer/Pro-Readme-Generator.git
-cd test
-cargo install
+code .
+cargo build
 ```
+
 
 ### Usage
+**Linux:**
 ```
-cargo run
+cargo build
+chmod +x Pro-Readme-Generator
+Pro-Readme-Generator
 ```
+**Windows:**
+```
+Pro-Readme-Generator.exe
+```
+**Mac**
 
 ### Contributing
+
+You are welcome to opening a pull request!
 
 ### License
 This project is licensed under the MIT license
