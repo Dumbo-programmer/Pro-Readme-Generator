@@ -28,4 +28,4 @@ This project is licensed under the MIT license
 Leave a ⭐ if you like this project
 
 ***
-Readme made generated with love
+Readme generated with love
