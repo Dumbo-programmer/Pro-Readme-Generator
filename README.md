@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="name" align="center" src="https://img.shields.io/badge/Pro Readme Generator-FFFFFF?style=for-the-badge" height="20">
+<img alt="name" align="center" src="https://img.shields.io/badge/Pro Readme Generator-FFFFFF?style=for-the-badge" height="40">
 <br />
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /><br>
 <br>
