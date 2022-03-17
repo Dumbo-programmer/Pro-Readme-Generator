@@ -8,6 +8,13 @@ fn main() {
     println!("{}", "PRO! README.md Generator".green().bold());
 
     // Taking inputs from the user
+    let mut bol = String::new();
+    println!("{}", "Do you want rainbow line at start & end?(y=YES,n=NO): ".blue());
+    stdin()
+        .read_line(&mut bol)
+        .expect("Unrecognized input");
+
+
     let mut project_name = String::new();
     println!("{}", "Enter the project name: ".blue());
     stdin()
@@ -85,6 +92,7 @@ fn main() {
     );
 
     file_factory(
+        bol,
         project_name,
         bg,
         short_description,
@@ -96,6 +104,7 @@ fn main() {
 }
 
 fn file_factory(
+    bol: String,
     project_name: String,
     bg: String,
     short_description: String,
@@ -108,7 +117,9 @@ fn file_factory(
     let mut file = std::fs::File::create("README.md").expect("Failed to create file");
     let mut content = String::new();
 
-  
+  if bol.trim() == "y"{
+      content.push_str("<img align=\"center\" src=\"https://tenor.com/bayME.gif\">")
+  }
    if bg.trim().len() > 0{
 
     content.push_str("<div align=\"center\">\n");
@@ -243,6 +254,7 @@ fn file_factory(
     content.push_str(use_command);
     content.push_str("\n```\n");
     content.push_str("Extra OS Dependent Steps:\n");
+    content.push_str("<br>");
     content.push_str("**Windows:**\n");
     content.push_str("\n```\n");
     content.push_str("\n```\n");
@@ -278,4 +290,8 @@ fn file_factory(
     // Save the file
     file.write_all(content.as_bytes())
         .expect("Failed to write to file");
+
+    if bol.trim() == "y"{
+    content.push_str("<img align=\"center\" src=\"https://tenor.com/bayME.gif\">")
+    }    
 }
