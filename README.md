@@ -3,7 +3,7 @@
 <br />
 <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /><br>
 <br>
-tt
+Make a beautiful readme in your CLI! 
 </div>
 
 ***
