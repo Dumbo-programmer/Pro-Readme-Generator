@@ -242,6 +242,17 @@ fn file_factory(
     content.push_str("```\n");
     content.push_str(use_command);
     content.push_str("\n```\n");
+    content.push_str("Extra OS Dependent Steps:\n");
+    content.push_str("**Windows:**\n");
+    content.push_str("\n```\n");
+    content.push_str("\n```\n");
+    content.push_str("**Linux:**\n");
+    content.push_str("\n```\n");
+    content.push_str("\n```\n");
+    content.push_str("**MacOS:**\n");
+    content.push_str("\n```\n");
+    content.push_str("\n```\n");
+
 
     // Contributing part
     content.push_str("\n### Contributing\n");
