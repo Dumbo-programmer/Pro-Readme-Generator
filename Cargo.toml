@@ -1,13 +1,16 @@
 [package]
 name = "Pro-Readme-Generator"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "A very easy-to-use multi functional README generator written in Rust that works inside your terminal. Never think about readme again!"
 license = "MIT"
 authors = ["Dumbo-programmer <tawhidbinomarsjhss@gmail.com>"]
 keywords = ["readme", "tools"]
+repository = "https://github.com/Dumbo-programmer/Pro-Readme-Generator"
+categories = ["command-line-utilities", "development-tools"]
+exclude = ["Pro-Readme-Generator", "Pro-Readme-Generator.exe"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-colored = "2.0.0"
+colored = "3.1.0"
